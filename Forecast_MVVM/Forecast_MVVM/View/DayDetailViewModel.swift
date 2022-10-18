@@ -21,7 +21,7 @@ class DayDetailViewModel {
     
     private let networkingController: NetworkingContoller
     
-    init(delegate: DayDetailViewModelDelegate? = nil, networkingController: NetworkingContoller = NetworkingContoller()) {
+    init(delegate: DayDetailViewModelDelegate, networkingController: NetworkingContoller = NetworkingContoller()) {
         self.delegate = delegate
         self.networkingController = networkingController
         fetchForcastData()
