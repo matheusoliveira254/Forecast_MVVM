@@ -17,6 +17,7 @@
 		41978F6D27B9CE70001CB2C0 /* ResultError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41978F6C27B9CE70001CB2C0 /* ResultError.swift */; };
 		41978F6F27B9CF0A001CB2C0 /* DayForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41978F6E27B9CF0A001CB2C0 /* DayForecastTableViewCell.swift */; };
 		41978F7127B9CF46001CB2C0 /* DayDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41978F7027B9CF46001CB2C0 /* DayDetailsViewController.swift */; };
+		A1D2301428FF3FB0004A0BD7 /* DayDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D2301328FF3FB0004A0BD7 /* DayDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		41978F6C27B9CE70001CB2C0 /* ResultError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultError.swift; sourceTree = "<group>"; };
 		41978F6E27B9CF0A001CB2C0 /* DayForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayForecastTableViewCell.swift; sourceTree = "<group>"; };
 		41978F7027B9CF46001CB2C0 /* DayDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailsViewController.swift; sourceTree = "<group>"; };
+		A1D2301328FF3FB0004A0BD7 /* DayDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		41978F6727B9CDB5001CB2C0 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A1D2301328FF3FB0004A0BD7 /* DayDetailViewModel.swift */,
 				41978F6E27B9CF0A001CB2C0 /* DayForecastTableViewCell.swift */,
 				41978F7027B9CF46001CB2C0 /* DayDetailsViewController.swift */,
 			);
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1D2301428FF3FB0004A0BD7 /* DayDetailViewModel.swift in Sources */,
 				41978F6F27B9CF0A001CB2C0 /* DayForecastTableViewCell.swift in Sources */,
 				41978F6D27B9CE70001CB2C0 /* ResultError.swift in Sources */,
 				41978F4327B9C26C001CB2C0 /* AppDelegate.swift in Sources */,
